@@ -1,0 +1,20 @@
+Signature is valid from 404f8fd144
+Transaction ledger updated
+404f8fd144 has 132
+07f946d659 has 46
+c214b8bfb6 has 8
+Found a proof: 1288
+Found a proof: 1288
+Found a proof: 1701
+New ledger accepted for proof 1288
+404f8fd144 has 100
+07f946d659 has 77
+c214b8bfb6 has 10
+Signature is valid from 404f8fd144
+Signature is valid from 404f8fd144
+Signature is valid from 404f8fd144
+New ledger accepted for proof 180
+404f8fd144 has 41
+07f946d659 has 77
+c214b8bfb6 has 50
+Reject from 404f8fd144: insufficient funds
