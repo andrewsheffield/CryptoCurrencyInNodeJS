@@ -95,7 +95,6 @@ CoinClient.prototype.transferFunds = function(details) {
   trans.pubKey = this.pubKey;
   trans.id = this.getID();
 
-  //write code here
   sign.update(msg);
   var sig = sign.sign(this.privKey, 'hex');
   trans.sig = sig;
@@ -153,12 +152,6 @@ CoinClient.prototype.mineProof = function(newLedger, start) {
   var ledge = JSON.stringify(newLedger);
   var proof;
 
-  //
-  // YOUR CODE HERE
-  //
-  // TIP: Find a proof such that hash(ledge+s) produces the right
-  // number of leading zeroes
-  //
   var proof = 0;
   var hashVal = this.hash(ledge + proof);
 
